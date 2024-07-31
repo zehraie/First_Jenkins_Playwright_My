@@ -1,0 +1,20 @@
+{
+  "name": "first_jenkins_playwright_my",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "tests": "npx playwright test",
+    "test:specific": "npx playwright test ./tests/**/assertion-practice1.test.js",
+    "test:tag": "npx playwright test --grep @smoke",
+    
+    "report": "npx playwright show-report"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.45.3",
+    "@types/node": "^22.0.0"
+  }
+}
